@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14564B3B21550C5300E1E1A2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14564B3A21550C5300E1E1A2 /* main.cpp */; };
+		14564BBF2155217700E1E1A2 /* aes_modes.c in Sources */ = {isa = PBXBuildFile; fileRef = 14564BB62155217700E1E1A2 /* aes_modes.c */; };
+		14564BC02155217700E1E1A2 /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 14564BB92155217700E1E1A2 /* aescrypt.c */; };
+		14564BC12155217700E1E1A2 /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = 14564BBA2155217700E1E1A2 /* aeskey.c */; };
+		14564BC22155217700E1E1A2 /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = 14564BBC2155217700E1E1A2 /* aestab.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		14564B3521550C5300E1E1A2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		14564B3721550C5300E1E1A2 /* Pseudorandom generator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Pseudorandom generator"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14564B3A21550C5300E1E1A2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		14564BB62155217700E1E1A2 /* aes_modes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = aes_modes.c; path = ../aes/aes_modes.c; sourceTree = "<group>"; };
+		14564BB72155217700E1E1A2 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = aes.h; path = ../aes/aes.h; sourceTree = "<group>"; };
+		14564BB82155217700E1E1A2 /* aescpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = aescpp.h; path = ../aes/aescpp.h; sourceTree = "<group>"; };
+		14564BB92155217700E1E1A2 /* aescrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = aescrypt.c; path = ../aes/aescrypt.c; sourceTree = "<group>"; };
+		14564BBA2155217700E1E1A2 /* aeskey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = aeskey.c; path = ../aes/aeskey.c; sourceTree = "<group>"; };
+		14564BBB2155217700E1E1A2 /* aesopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = aesopt.h; path = ../aes/aesopt.h; sourceTree = "<group>"; };
+		14564BBC2155217700E1E1A2 /* aestab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = aestab.c; path = ../aes/aestab.c; sourceTree = "<group>"; };
+		14564BBD2155217700E1E1A2 /* aestab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = aestab.h; path = ../aes/aestab.h; sourceTree = "<group>"; };
+		14564BBE2155217700E1E1A2 /* brg_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = brg_types.h; path = ../aes/brg_types.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14564B3421550C5300E1E1A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14564B2E21550C5300E1E1A2 = {
+			isa = PBXGroup;
+			children = (
+				14564B3921550C5300E1E1A2 /* Pseudorandom generator */,
+				14564B4121550D3200E1E1A2 /* AES */,
+				14564B3821550C5300E1E1A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14564B3821550C5300E1E1A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14564B3721550C5300E1E1A2 /* Pseudorandom generator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14564B3921550C5300E1E1A2 /* Pseudorandom generator */ = {
+			isa = PBXGroup;
+			children = (
+				14564B3A21550C5300E1E1A2 /* main.cpp */,
+			);
+			path = "Pseudorandom generator";
+			sourceTree = "<group>";
+		};
+		14564B4121550D3200E1E1A2 /* AES */ = {
+			isa = PBXGroup;
+			children = (
+				14564BB62155217700E1E1A2 /* aes_modes.c */,
+				14564BB72155217700E1E1A2 /* aes.h */,
+				14564BB82155217700E1E1A2 /* aescpp.h */,
+				14564BB92155217700E1E1A2 /* aescrypt.c */,
+				14564BBA2155217700E1E1A2 /* aeskey.c */,
+				14564BBB2155217700E1E1A2 /* aesopt.h */,
+				14564BBC2155217700E1E1A2 /* aestab.c */,
+				14564BBD2155217700E1E1A2 /* aestab.h */,
+				14564BBE2155217700E1E1A2 /* brg_types.h */,
+			);
+			name = AES;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14564B3621550C5300E1E1A2 /* Pseudorandom generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14564B3E21550C5300E1E1A2 /* Build configuration list for PBXNativeTarget "Pseudorandom generator" */;
+			buildPhases = (
+				14564B3321550C5300E1E1A2 /* Sources */,
+				14564B3421550C5300E1E1A2 /* Frameworks */,
+				14564B3521550C5300E1E1A2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pseudorandom generator";
+			productName = "Pseudorandom generator";
+			productReference = 14564B3721550C5300E1E1A2 /* Pseudorandom generator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14564B2F21550C5300E1E1A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Peter Bencik";
+				TargetAttributes = {
+					14564B3621550C5300E1E1A2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 14564B3221550C5300E1E1A2 /* Build configuration list for PBXProject "Pseudorandom generator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 14564B2E21550C5300E1E1A2;
+			productRefGroup = 14564B3821550C5300E1E1A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14564B3621550C5300E1E1A2 /* Pseudorandom generator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14564B3321550C5300E1E1A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14564BBF2155217700E1E1A2 /* aes_modes.c in Sources */,
+				14564BC22155217700E1E1A2 /* aestab.c in Sources */,
+				14564BC02155217700E1E1A2 /* aescrypt.c in Sources */,
+				14564B3B21550C5300E1E1A2 /* main.cpp in Sources */,
+				14564BC12155217700E1E1A2 /* aeskey.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		14564B3C21550C5300E1E1A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		14564B3D21550C5300E1E1A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		14564B3F21550C5300E1E1A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14564B4021550C5300E1E1A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14564B3221550C5300E1E1A2 /* Build configuration list for PBXProject "Pseudorandom generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14564B3C21550C5300E1E1A2 /* Debug */,
+				14564B3D21550C5300E1E1A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14564B3E21550C5300E1E1A2 /* Build configuration list for PBXNativeTarget "Pseudorandom generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14564B3F21550C5300E1E1A2 /* Debug */,
+				14564B4021550C5300E1E1A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14564B2F21550C5300E1E1A2 /* Project object */;
+}
