@@ -91,5 +91,15 @@ int main(int argc, const char * argv[]) {
         outfile.write((char*)&generated[0], generated.size() * sizeof(unsigned char));
     }
     outfile.close();
+    
+    //for exercise 5, lenght of output should be 125000bytes - but why generatin 160000 is explained in discussion forum
+    std::ofstream outfile2 ("ex5.bin",std::ios::out | std::ios::binary);
+    
+    for (int i = 0; i <10000; ++i) {
+        auto generated = gen.generate();
+        outfile2.write((char*)&generated[0], generated.size() * sizeof(unsigned char));
+    }
+    
+    
     return 0;
 }
